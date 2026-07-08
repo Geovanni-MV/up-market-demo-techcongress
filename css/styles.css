@@ -190,7 +190,7 @@ section { padding: 5.5rem 1.5rem; border-bottom: 1px solid var(--border); positi
 /* ══════════════════════════════════════════════════════════
    AGENDA
 ══════════════════════════════════════════════════════════ */
-.tabs { display: inline-flex; gap: .3rem; padding: .3rem; background: var(--surface); border: 1px solid var(--border); border-radius: .6rem; margin-bottom: 275rem; }
+.tabs { display: inline-flex; gap: .3rem; padding: .3rem; background: var(--surface); border: 1px solid var(--border); border-radius: .6rem; margin-bottom: 10rem; }
 .tab-btn {
   padding: .5rem 1.15rem; border-radius: .4rem; font-size: .82rem; font-family: var(--mono);
   border: none; background: transparent; color: var(--text-muted);
@@ -331,6 +331,7 @@ footer { padding: 3rem 1.5rem 2rem; border-top: 1px solid var(--border); }
 ══════════════════════════════════════════════════════════ */
 @media (max-width: 860px) {
   .nav-links-desktop, .nav-actions-desktop { display: none; }
+  #ticker {top: 65px;}
   #hamburger { display: flex; }
 }
 @media (max-width: 640px) {
