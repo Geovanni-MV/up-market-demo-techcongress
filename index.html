@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechConf Global 2025</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+
+  <body>
+
+    <!-- NAVBAR -->
+    <nav id="navbar">
+      <a href="#hero" class="logo">
+        <span class="logo-mark">TC</span>
+        <span class="logo-text">techconf<span>_global</span></span>
+      </a>
+
+      <div class="nav-links-desktop">
+        <a href="#hero" class="nav-link active">Inicio</a>
+        <a href="#agenda" class="nav-link">Agenda</a>
+        <a href="#speakers" class="nav-link">Expositores</a>
+        <a href="#precios" class="nav-link">Tickets</a>
+        <a href="#faq" class="nav-link">FAQ</a>
+      </div>
+
+      <div class="nav-actions-desktop">
+        <a href="#precios" class="btn-primary">Registrarse →</a>
+      </div>
+
+      <button id="hamburger" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+
+    <div id="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <span>●</span> OCT 15–17, 2025 &nbsp;—&nbsp; 40+ SPEAKERS &nbsp;—&nbsp; 2,000+ ASISTENTES &nbsp;—&nbsp; 15+ PAÍSES &nbsp;—&nbsp; SEDE PRINCIPAL, PRESENCIAL
+        <span>●</span> OCT 15–17, 2025 &nbsp;—&nbsp; 40+ SPEAKERS &nbsp;—&nbsp; 2,000+ ASISTENTES &nbsp;—&nbsp; 15+ PAÍSES &nbsp;—&nbsp; SEDE PRINCIPAL, PRESENCIAL
+      </div>
+    </div>
+
+    <!-- Mobile menu -->
+    <div id="mobile-menu">
+      <a href="#hero" class="nav-link">Inicio</a>
+      <a href="#agenda" class="nav-link">Agenda</a>
+      <a href="#speakers" class="nav-link">Expositores</a>
+      <a href="#precios" class="nav-link">Tickets</a>
+      <a href="#faq" class="nav-link">FAQ</a>
+      <a href="#precios" class="btn-primary">Registrarse →</a>
+    </div>
+
+    <!-- HERO -->
+    <section id="hero">
+      <div class="hero-inner" data-reveal>
+        <div class="badge">
+          <span class="badge-dot"></span>
+          PRÓXIMO EVENTO - OCTUBRE 15–17, 2025
+        </div>
+
+        <h1>EL FUTURO DE LA <span class="accent">IA</span><br />&amp; EL DESARROLLO</h1>
+
+        <p class="subtitle">Únete a los arquitectos del mañana en el congreso tecnológico más disruptivo de la región. Tres días de inmersión total en ingeniería avanzada e inteligencia artificial.</p>
+
+        <div class="hero-btns">
+          <a href="#precios" class="btn-primary" style="padding:.85rem 1.75rem;font-size:.95rem;">Comprar Tickets →</a>
+          <a href="#agenda" class="hero-link">Ver Agenda Completa</a>
+        </div>
+
+        <div id="countdown-grid">
+          <div class="count-box"><span class="num" id="cd-days">00</span><span class="label">DÍAS</span></div>
+          <div class="count-box"><span class="num" id="cd-hours">00</span><span class="label">HORAS</span></div>
+          <div class="count-box"><span class="num" id="cd-mins">00</span><span class="label">MINUTOS</span></div>
+          <div class="count-box"><span class="num" id="cd-secs">00</span><span class="label">SEGUNDOS</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!--SOBRE EL EVENTO -->
+    <section id="sobre">
+      <div class="container text-center" data-reveal>
+        <p class="eyebrow">por_qué_asistir</p>
+        <h2 class="section-title">Sobre el <span class="accent">Evento</span></h2>
+        <p class="section-desc">TechConf es el punto de encuentro definitivo para profesionales que buscan liderar la próxima revolución tecnológica a través de tres pilares fundamentales.</p>
+
+        <div class="cards-grid">
+          <div class="card amber">
+            <div class="card-icon" style="background:var(--amber-dim);">
+              <svg viewBox="0 0 24 24" fill="none" stroke="var(--amber)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="7" r="3"/><path d="M2 21v-1a6 6 0 0 1 6-6h2a6 6 0 0 1 6 6v1"/><circle cx="17" cy="9" r="2.5"/><path d="M21 21v-.8a4 4 0 0 0-3-3.87"/></svg>
+            </div>
+            <h3>Networking</h3>
+            <p>Conecta con más de 2,000 líderes de la industria — CTOs y desarrolladores senior de las empresas tecnológicas más innovadoras del mundo.</p>
+          </div>
+          <div class="card teal">
+            <div class="card-icon" style="background:var(--teal-dim);">
+              <svg viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 4 14h7l-1 8 9-12h-7l1-8Z"/></svg>
+            </div>
+            <h3>Innovación</h3>
+            <p>Descubre las últimas tendencias en IA generativa, Web3 y computación cuántica presentadas por quienes están escribiendo el código del futuro.</p>
+          </div>
+          <div class="card amber">
+            <div class="card-icon" style="background:var(--amber-dim);">
+              <svg viewBox="0 0 24 24" fill="none" stroke="var(--amber)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m18 16 4-4-4-4M6 8l-4 4 4 4M14.5 4l-5 16"/></svg>
+            </div>
+            <h3>Aprendizaje</h3>
+            <p>Participa en workshops prácticos y sesiones técnicas profundas diseñadas para llevar tus habilidades al siguiente nivel profesional.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AGENDA -->
+    <section id="agenda">
+      <div class="container text-center" data-reveal>
+        <p class="eyebrow">3_días_de_contenido</p>
+        <h2 class="section-title">Agenda <span class="accent">del Evento</span></h2>
+        <p class="section-desc">Selecciona el día para ver las sesiones disponibles.</p>
+
+        <div class="tabs" role="tablist">
+          <button class="tab-btn active" data-tab="day1" role="tab" aria-selected="true">día_1 · oct_15</button>
+          <button class="tab-btn"        data-tab="day2" role="tab" aria-selected="false">día_2 · oct_16</button>
+          <button class="tab-btn"        data-tab="day3" role="tab" aria-selected="false">día_3 · oct_17</button>
+        </div>
+
+        <div id="day1" class="agenda-panel active">
+          <div class="agenda-log">
+            <div class="agenda-item"><span class="agenda-time">09:00</span><div class="agenda-info"><h4>Apertura oficial &amp; bienvenida</h4><p>Ceremonia de inauguración con los organizadores principales.</p><span class="agenda-tag">keynote</span></div></div>
+            <div class="agenda-item"><span class="agenda-time">10:30</span><div class="agenda-info"><h4>IA generativa: más allá de los LLMs</h4><p>Valeria Montes · Especialista Frontend &amp; UX Engineering</p><span class="agenda-tag teal">workshop</span></div></div>
+            <div class="agenda-item"><span class="agenda-time">12:00</span><div class="agenda-info"><h4>Almuerzo &amp; networking</h4><p>Espacio libre para conectar con otros asistentes.</p><span class="agenda-tag muted">networking</span></div></div>
+            <div class="agenda-item"><span class="agenda-time">14:00</span><div class="agenda-info"><h4>Arquitecturas de microservicios a escala</h4><p>Panel de ingenieros senior de grandes empresas tech.</p><span class="agenda-tag">panel</span></div></div>
+            <div class="agenda-item"><span class="agenda-time">16:30</span><div class="agenda-info"><h4>Demo showcase: proyectos en vivo</h4><p>Demos interactivas de startups seleccionadas.</p><span class="agenda-tag muted">demo</span></div></div>
+          </div>
+        </div>
+
+        <div id="day2" class="agenda-panel">
+          <div class="agenda-log">
+            <div class="agenda-item"><span class="agenda-time">09:00</span><div class="agenda-info"><h4>Computación cuántica para ingenieros</h4><p>Introducción práctica a algoritmos cuánticos.</p><span class="agenda-tag">keynote</span></div></div>
+            <div class="agenda-item"><span class="agenda-time">11:00</span><div class="agenda-info"><h4>DevOps &amp; plataformas cloud-native</h4><p>Taller práctico con Kubernetes y Terraform.</p><span class="agenda-tag teal">workshop</span></div></div>
+            <div class="agenda-item"><span class="agenda-time">13:00</span><div class="agenda-info"><h4>Almuerzo &amp; networking</h4><p>Espacio libre para conectar con otros asistentes.</p><span class="agenda-tag muted">networking</span></div></div>
+            <div class="agenda-item"><span class="agenda-time">15:00</span><div class="agenda-info"><h4>Seguridad en aplicaciones con IA</h4><p>Casos reales de ataques adversariales y mitigaciones.</p><span class="agenda-tag">panel</span></div></div>
+          </div>
+        </div>
+
+        <div id="day3" class="agenda-panel">
+          <div class="agenda-log">
+            <div class="agenda-item"><span class="agenda-time">09:30</span><div class="agenda-info"><h4>Hackathon final — presentaciones</h4><p>Equipos presentan sus proyectos ante el jurado.</p><span class="agenda-tag muted">hackathon</span></div></div>
+            <div class="agenda-item"><span class="agenda-time">12:00</span><div class="agenda-info"><h4>Premios &amp; reconocimientos</h4><p>Ceremonia de clausura y entrega de premios.</p><span class="agenda-tag">keynote</span></div></div>
+            <div class="agenda-item"><span class="agenda-time">14:00</span><div class="agenda-info"><h4>Cierre &amp; after party</h4><p>Celebración final con networking informal.</p><span class="agenda-tag muted">networking</span></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SPEAKERS -->
+    <section id="speakers">
+      <div class="container text-center" data-reveal>
+        <p class="eyebrow">los_mejores_del_mundo</p>
+        <h2 class="section-title">Expositores <span class="accent">Destacados</span></h2>
+        <p class="section-desc">Profesionales de la industria compartirán su experiencia, casos reales y las tendencias que están marcando el futuro de la tecnología.</p>
+
+        <div class="speakers-grid">
+          <div class="speaker-card">
+            <div class="speaker-avatar" style="background:var(--amber-dim);color:var(--amber);">VM</div>
+            <div><p class="speaker-name">Valeria Montes</p><p class="speaker-role">Frontend &amp; UX Engineering</p><p class="speaker-bio">Experta en desarrollo web moderno, accesibilidad y diseño centrado en el usuario.</p></div>
+          </div>
+          <div class="speaker-card">
+            <div class="speaker-avatar" style="background:var(--teal-dim);color:var(--teal);">CR</div>
+            <div><p class="speaker-name">Carlos Ramírez</p><p class="speaker-role">Lead Engineer · Google DeepMind</p><p class="speaker-bio">Investigador de IA con más de 10 años desarrollando modelos de lenguaje a gran escala.</p></div>
+          </div>
+          <div class="speaker-card">
+            <div class="speaker-avatar" style="background:var(--amber-dim);color:var(--amber);">AT</div>
+            <div><p class="speaker-name">Ana Torres</p><p class="speaker-role">CTO · FinTech Latam</p><p class="speaker-bio">Líder en arquitecturas distribuidas y seguridad en aplicaciones financieras.</p></div>
+          </div>
+          <div class="speaker-card">
+            <div class="speaker-avatar" style="background:var(--teal-dim);color:var(--teal);">DF</div>
+            <div><p class="speaker-name">Diego Flores</p><p class="speaker-role">DevRel · AWS Latinoamérica</p><p class="speaker-bio">Evangelista de cloud-native y autor de varios cursos sobre Kubernetes y serverless.</p></div>
+          </div>
+          <div class="speaker-card">
+            <div class="speaker-avatar" style="background:var(--amber-dim);color:var(--amber);">SH</div>
+            <div><p class="speaker-name">Sofía Hernández</p><p class="speaker-role">Investigadora · MIT CSAIL</p><p class="speaker-bio">Pionera en computación cuántica aplicada a optimización logística y supply chain.</p></div>
+          </div>
+          <div class="speaker-card">
+            <div class="speaker-avatar" style="background:var(--teal-dim);color:var(--teal);">MR</div>
+            <div><p class="speaker-name">Marco Ríos</p><p class="speaker-role">Founder · DevStartup MX</p><p class="speaker-bio">Emprendedor serial con tres exits, experto en producto y crecimiento en mercados emergentes.</p></div>
+          </div>
+        </div>
+
+        <div style="margin-top:2.5rem;">
+          <a href="#" class="btn-ghost" style="display:inline-block;">Ver todos los expositores →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATS -->
+    <section id="stats" data-reveal>
+      <div class="container">
+        <div class="stats-grid">
+          <div><p class="stat-num">40+</p><p class="stat-label">SPEAKERS_GLOBALES</p></div>
+          <div><p class="stat-num">2000+</p><p class="stat-label">ASISTENTES</p></div>
+          <div><p class="stat-num">15+</p><p class="stat-label">PAÍSES</p></div>
+          <div><p class="stat-num">100%</p><p class="stat-label">INNOVACIÓN</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MEDIA -->
+    <section id="media" data-reveal>
+      <div class="container text-center">
+        <p class="eyebrow" style="justify-content:center;display:flex;">cobertura_de_medios_globales</p>
+        <div class="media-logos">
+          <span class="media-logo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 9h18"/></svg>TechNews</span>
+          <span class="media-logo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>DevDaily</span>
+          <span class="media-logo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 19V9l8-6 8 6v10"/><path d="M9 19v-6h6v6"/></svg>FutureStack</span>
+          <span class="media-logo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 12h4l3 8 4-16 3 8h4"/></svg>DataPulse</span>
+          <span class="media-logo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18 14 14 0 0 1 0-18Z"/></svg>WebConnect</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRECIOS -->
+    <section id="precios">
+      <div class="container text-center" data-reveal>
+        <p class="eyebrow">elige_tu_experiencia</p>
+        <h2 class="section-title">Tickets &amp; <span class="accent">Precios</span></h2>
+        <p class="section-desc">Acceso por 3 días completos. Sin costos ocultos.</p>
+
+        <div class="pricing-grid">
+          <div class="pricing-card">
+            <p class="pricing-tier">básico</p>
+            <p class="pricing-price">$99 <span>USD</span></p>
+            <p class="pricing-desc">Acceso general al evento y sesiones principales.</p>
+            <hr class="pricing-divider" />
+            <p class="pricing-feature"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>Acceso a keynotes</p>
+            <p class="pricing-feature"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>Networking en áreas comunes</p>
+            <p class="pricing-feature"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>Certificado de asistencia</p>
+            <button class="btn-pricing">Comprar ahora</button>
+          </div>
+
+          <div class="pricing-card featured">
+            <div class="pricing-badge-top">MÁS POPULAR</div>
+            <p class="pricing-tier">pro</p>
+            <p class="pricing-price">$199 <span>USD</span></p>
+            <p class="pricing-desc">La experiencia completa para profesionales en crecimiento.</p>
+            <hr class="pricing-divider" />
+            <p class="pricing-feature"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>Todo lo del plan Básico</p>
+            <p class="pricing-feature"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>Acceso a todos los workshops</p>
+            <p class="pricing-feature"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>Grabaciones post-evento</p>
+            <p class="pricing-feature"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>Sesión de Q&amp;A con speakers</p>
+            <button class="btn-pricing">Comprar ahora</button>
+          </div>
+
+          <div class="pricing-card">
+            <p class="pricing-tier hi">vip</p>
+            <p class="pricing-price">$399 <span>USD</span></p>
+            <p class="pricing-desc">Acceso exclusivo y experiencia personalizada.</p>
+            <hr class="pricing-divider" />
+            <p class="pricing-feature"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>Todo lo del plan Pro</p>
+            <p class="pricing-feature"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>Meet &amp; greet con speakers</p>
+            <p class="pricing-feature"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>Asiento preferencial</p>
+            <p class="pricing-feature"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>After party exclusivo</p>
+            <button class="btn-pricing">Comprar ahora</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq">
+      <div class="container text-center" data-reveal>
+        <p class="eyebrow">preguntas_frecuentes</p>
+        <h2 class="section-title">Resolvemos tus <span class="accent">Dudas</span></h2>
+        <p class="section-desc">Si no encuentras tu respuesta aquí, escríbenos.</p>
+
+        <div class="faq-list">
+          <div class="faq-item">
+            <button class="faq-question">¿El evento es presencial o virtual?<span class="faq-icon">+</span></button>
+            <div class="faq-answer"><p>TechConf 2025 es completamente presencial en su sede principal. Los titulares de planes Pro y VIP también tendrán acceso a la transmisión en vivo y grabaciones.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">¿Puedo transferir mi ticket a otra persona?<span class="faq-icon">+</span></button>
+            <div class="faq-answer"><p>Sí, los tickets son transferibles hasta 7 días antes del evento. Escríbenos a tickets@techconf.global con los datos del nuevo titular.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">¿Habrá certificado de participación?<span class="faq-icon">+</span></button>
+            <div class="faq-answer"><p>Todos los asistentes recibirán un certificado digital verificable. Los titulares de workshops recibirán certificados adicionales por cada sesión completada.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">¿Cuál es la política de reembolso?<span class="faq-icon">+</span></button>
+            <div class="faq-answer"><p>Reembolso completo hasta 30 días antes del evento. Entre 30 y 15 días, reembolso del 50%. Después de esa fecha no aplica reembolso, pero sí transferencia de ticket.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">¿Hay descuentos para grupos o estudiantes?<span class="faq-icon">+</span></button>
+            <div class="faq-answer"><p>Sí. Para grupos de 5 o más personas ofrecemos 20% de descuento. Estudiantes con credencial vigente obtienen 30% de descuento en el plan Básico.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA BANNER -->
+    <section id="cta" data-reveal>
+      <div class="container">
+        <h2>¿Listo para ser parte del <span style="color:var(--amber)">futuro</span>?</h2>
+        <p>Los lugares son limitados. Asegura tu lugar antes de que se agoten.</p>
+        <a href="#precios" class="btn-primary" style="padding:.9rem 2.1rem;font-size:1rem;">Obtener mi ticket →</a>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-links">
+        <a href="#">Privacidad</a>
+        <a href="#">Términos</a>
+        <a href="#">Prensa</a>
+        <a href="#">Contacto</a>
+      </div>
+      <div class="footer-socials">
+        <a href="#" aria-label="TikTok"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M16 3v9.5a4 4 0 1 1-3-3.87V3z"/><path d="M16 3a5 5 0 0 0 5 5"/></svg></a>
+        <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".6" fill="currentColor"/></svg></a>
+        <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M14 9h3V6h-3a4 4 0 0 0-4 4v2H8v3h2v6h3v-6h3l1-3h-4v-2a1 1 0 0 1 1-1Z"/></svg></a>
+        <a href="#" aria-label="X / Twitter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 4l16 16M20 4 4 20"/></svg></a>
+      </div>
+      <p class="footer-copy">© 2025 TECHCONF_GLOBAL — built_for_the_future</p>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
